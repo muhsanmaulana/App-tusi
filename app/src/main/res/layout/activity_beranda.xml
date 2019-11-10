@@ -195,7 +195,7 @@
                         android:layout_width="45dp"
                         android:layout_centerVertical="true"
                         android:layout_height="45dp"
-                        android:background="@drawable/ic_person_black_24dp"
+                        android:background="@drawable/ic_lock_black_24dp"
                         />
                 </RelativeLayout>
 
