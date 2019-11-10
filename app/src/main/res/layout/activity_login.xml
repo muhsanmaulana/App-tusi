@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/ColorBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="60dp"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/logo_tusi"
+                >
+            </ImageView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/rectangle_login"
+                    />
+                <ImageView
+                    android:layout_marginTop="33dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/ic_person_black_24dp"
+                    />
+                <EditText
+                    android:id="@+id/emailphone"
+                    android:layout_marginTop="33dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email / No Telp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@null"
+                    android:fontFamily="@font/sarabun_medium"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/rectangle_login"
+                    />
+                <ImageView
+                    android:layout_marginTop="33dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/ic_lock_black_24dp"
+                    />
+                <EditText
+                    android:id="@+id/password"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="33dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kata Sandi"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@null"
+                    android:fontFamily="@font/sarabun_medium"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:layout_gravity="center"
+                   android:layout_marginTop="20dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <Button
+                       android:id="@+id/forget_password"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Lupa kata sandi"
+                       android:textSize="14sp"
+                       android:fontFamily="@font/sarabun_bold"
+                       android:textColor="@color/ColorGreenText"
+                       android:background="@null"
+                       android:textAllCaps="false"
+                       />
+                   <Button
+                       android:id="@+id/login_button"
+                       android:layout_marginLeft="20dp"
+                       android:layout_width="80dp"
+                       android:layout_height="30dp"
+                       android:text="Login"
+                       android:textAllCaps="false"
+                       android:textSize="14sp"
+                       android:textColor="#FFFFFF"
+                       android:fontFamily="@font/sarabun_bold"
+                       android:background="@drawable/rectangle_button"/>
+               </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/register_button"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textSize="14sp"
+                android:fontFamily="@font/sarabun_bold"
+                android:textColor="@color/ColorGreenText"
+                android:background="@null"
+                android:textAllCaps="false"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
