@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register1Activity"
+    android:background="@color/ColorBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ColorGreenText"
+                android:text="Register"
+                android:fontFamily="@font/sarabun_extrabold"
+                android:textSize="40sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="120dp"
+                />
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/rectangle_login"
+                    />
+                <ImageView
+                    android:layout_marginTop="33dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/ic_person_black_24dp"
+                    />
+                <EditText
+                    android:id="@+id/name_register"
+                    android:layout_marginTop="33dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama lengkap"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@null"
+                    android:fontFamily="@font/sarabun_medium"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/rectangle_login"
+                    />
+                <ImageView
+                    android:layout_marginTop="33dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/ic_email_black_24dp"
+                    />
+                <EditText
+                    android:id="@+id/email_register"
+                    android:layout_marginTop="33dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@null"
+                    android:fontFamily="@font/sarabun_medium"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="100dp"
+                    android:id="@+id/login_button"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="Lanjut"
+                    android:textAllCaps="false"
+                    android:textSize="14sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/sarabun_bold"
+                    android:background="@drawable/rectangle_button"/>
+
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
