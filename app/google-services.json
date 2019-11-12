@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "980904129163",
+    "firebase_url": "https://tusi-1573140164257.firebaseio.com",
+    "project_id": "tusi-1573140164257",
+    "storage_bucket": "tusi-1573140164257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980904129163:android:5b8fb9c19676c87e805a8e",
+        "android_client_info": {
+          "package_name": "co.app.tusi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980904129163-uo2u47c020rfaprd4dqmth7al9vkdhkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.app.tusi",
+            "certificate_hash": "6be5bd6fc5750edfb5d5bd0af408c2fdb638b15c"
+          }
+        },
+        {
+          "client_id": "980904129163-28gofue7u1lh8ui4n0oj3u7odil4hcn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE9iyI-vxhSZcQ7jpaWep8bd_ttu9DAWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980904129163-28gofue7u1lh8ui4n0oj3u7odil4hcn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
