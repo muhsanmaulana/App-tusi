@@ -6,4 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".BarcodeActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:background="@drawable/hijau_header">
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <TextView
+                       android:fontFamily="@font/sarabun_bold"
+                       android:textSize="18sp"
+                       android:textColor="@color/ColorGreenText"
+                       android:layout_marginTop="360dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Scan barcode untuk masuk"
+                       android:layout_gravity="center_horizontal"
+                       />
+                   //komen doang
+                   <Button
+                       android:layout_gravity="center"
+                      android:layout_marginTop="80dp"
+                       android:layout_width="360dp"
+                       android:layout_height="70dp"
+                       android:text="Kembali"
+                       android:textAllCaps="false"
+                       android:textSize="24sp"
+                       android:textColor="#FFFFFF"
+                       android:background="@drawable/button_barcode"
+                       />
+
+
+               </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
