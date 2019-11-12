@@ -29,7 +29,7 @@ public class Register3Activity extends AppCompatActivity {
     Intent intent;
     Intent before;
     int d , m ,y;
-    private StorageReference mStorageRef;
+
 
     void nextIntent(String noTelp, Calendar calendar){
 
@@ -51,7 +51,6 @@ public class Register3Activity extends AppCompatActivity {
 
         editText2 = findViewById(R.id.email_register);
         before = getIntent();
-        mStorageRef = FirebaseStorage.getInstance().getReference();
 
 
         Button button = findViewById(R.id.login_button);
