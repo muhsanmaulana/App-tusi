@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/ColorBackground"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:background="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/profil_pic"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/name_user"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Muhsan Maulana"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            android:layout_marginTop="80dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/phone_user"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+62845943744"
+                            android:fontFamily="@font/sarabun_medium"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/rank_user"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GOLD"
+                            android:fontFamily="@font/sarabun_medium"
+                            android:textColor="#FFE600"
+                            android:textSize="18sp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:background="@drawable/rectangle_profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageButton
+                        android:id="@+id/button"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="80px"
+                        android:layout_height="80px"
+                        android:background="@drawable/poin"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:textSize="18sp"
+                            android:text="Poin"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+                        <TextView
+                            android:padding="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_regular"
+                            android:textSize="14sp"
+                            android:text="Tukarkan Poinmu dengan Reward menarik"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:background="@drawable/rectangle_profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageButton
+                        android:id="@+id/setting"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="80px"
+                        android:layout_height="80px"
+                        android:background="@drawable/setting"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:textSize="18sp"
+                            android:text="Pengaturan Profil"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+                        <TextView
+                            android:padding="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_regular"
+                            android:textSize="14sp"
+                            android:text="Menukar nama, nomor telepon"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:background="@drawable/rectangle_profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageButton
+                        android:id="@+id/invite_friend"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="80px"
+                        android:layout_height="80px"
+                        android:background="@drawable/invite"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:textSize="18sp"
+                            android:text="Undang Teman"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+                        <TextView
+                            android:padding="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_regular"
+                            android:textSize="14sp"
+                            android:text="Mengajak teman menggunakan di Tusi"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:background="@drawable/rectangle_profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageButton
+                        android:id="@+id/bantuan"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="80px"
+                        android:layout_height="80px"
+                        android:background="@drawable/bantuan"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:textSize="18sp"
+                            android:text="Bantuan"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+                        <TextView
+                            android:padding="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_regular"
+                            android:textSize="14sp"
+                            android:text="Hotline tusi"
+                            android:textColor="#000000"
+                            android:textAllCaps="false"
+                            android:background="@null"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="10dp"
+            android:background="@drawable/rectangle_navigation"
+
+            >
+            <ImageButton
+                android:id="@+id/go_nav"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/go_nav" />
+
+
+            <ImageButton
+                android:id="@+id/home_nav"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_width="45dp"
+                android:layout_centerVertical="true"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_home_black_24dp"
+                />
+            <ImageButton
+                android:id="@+id/transaction_nav"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="100dp"
+                android:layout_width="45dp"
+                android:layout_centerVertical="true"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_trending_up_black_24dp"
+                />
+            <ImageButton
+                android:id="@+id/notif_nav"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="100dp"
+                android:layout_width="45dp"
+                android:layout_centerVertical="true"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_notifications_black_24dp"
+                />
+            <ImageButton
+                android:id="@+id/profile_nav"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_width="45dp"
+                android:layout_centerVertical="true"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_lock_black_24dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
