@@ -17,6 +17,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.io.IOException;
+
 public class LoginActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
@@ -60,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
         final EditText emailText = findViewById(R.id.emailphone);
         final EditText passwordText = findViewById(R.id.password);
         intent = new Intent(this, BerandaActivity.class);
-
+        final Intent register = new Intent(this, Register1Activity.class);
 
 
 
@@ -69,8 +71,23 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 email = String.valueOf(emailText.getText());
                 password = String.valueOf(passwordText.getText());
+                if(email.isEmpty() || password.isEmpty()){
+                    Toast.makeText(LoginActivity.this, "Tidak Boleh kosong",
+                            Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    signIn(email, password);
+                }
 
-                signIn(email,password);
+
+            }
+        });
+
+        final Button button1 = findViewById(R.id.register_button);
+        button1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                startActivity(register);
 
 
             }

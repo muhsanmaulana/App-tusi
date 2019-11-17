@@ -19,6 +19,11 @@ public class Register1Activity extends AppCompatActivity {
     String namaLengkap;
     String email;
     Intent intent;
+    static boolean isValid(String email) {
+        String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
+        return email.matches(regex);
+    }
+
     void nextIntent(String namaLengkap , String email){
 
             intent = new Intent(this, Register2Activity.class);
@@ -49,6 +54,11 @@ public class Register1Activity extends AppCompatActivity {
                 else if(email.isEmpty()){
                     Toast.makeText(Register1Activity.this, "Email tidak boleh kosong",
                             Toast.LENGTH_SHORT).show();
+                }
+               else if(isValid(email) == false){
+                    Toast.makeText(Register1Activity.this, "Email tidak valid",
+                            Toast.LENGTH_SHORT).show();
+
                 }
                 else{
                     nextIntent(namaLengkap,email);
