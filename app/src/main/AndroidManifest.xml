@@ -9,7 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BarcodeActivity"></activity>
+        <activity android:name=".PilihanRuteActivity"></activity>
+        <activity android:name=".TransaksiActivity" />
+        <activity android:name=".BarcodeActivity" />
+        <activity android:name=".PilihanRute3Activity" />
+        <activity android:name=".NotifikasiActivity" />
+        <activity android:name=".StasiunTerdekatKrlActivity" />
+        <activity android:name=".StasiunTerdekatMrtActivity" />
+        <activity android:name=".TopUpMoreActivity" />
+        <activity android:name=".StasiunTerdekatSepedaActivity" />
+        <activity android:name=".PilihanRute2SelesaiActivity" />
+        <activity android:name=".PilihanRute2MasukActivity" />
+        <activity android:name=".PoinActivity" />
+        <activity android:name=".StasiunTerdekatTjActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".TopUpActivity" />
+        <activity android:name=".ProfilActivity" />
         <activity android:name=".RuteActivity" />
         <activity android:name=".PesanActivity" />
         <activity android:name=".BerandaActivity" />
@@ -17,7 +32,8 @@
         <activity android:name=".Register2Activity" />
         <activity android:name=".Register1Activity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".UndangTemanActivity" />
+        <activity android:name=".SlideActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
