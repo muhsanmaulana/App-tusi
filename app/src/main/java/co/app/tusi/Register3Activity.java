@@ -44,7 +44,7 @@ public class Register3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register1);
+        setContentView(R.layout.activity_register3);
         dd = findViewById(R.id.tanggal_register);
         mm = findViewById(R.id.bulan_register);
         yyyy = findViewById(R.id.tahun_register);

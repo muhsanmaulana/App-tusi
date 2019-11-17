@@ -34,7 +34,7 @@ public class Register2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register1);
+        setContentView(R.layout.activity_register2);
         editText1 = findViewById(R.id.password_register);
         editText2 = findViewById(R.id.repassword_register);
         before = getIntent();
@@ -53,13 +53,11 @@ public class Register2Activity extends AppCompatActivity {
                     Toast.makeText(Register2Activity.this, "Konfirmasi Password",
                             Toast.LENGTH_SHORT).show();
                 }
-                else if(password != confirmPassword){
-                    Toast.makeText(Register2Activity.this, "Password tidak sama",
-                            Toast.LENGTH_SHORT).show();
-                }
+
 
                 else{
-                    nextIntent(password);
+                        nextIntent(password);
+
                 }
 
             }

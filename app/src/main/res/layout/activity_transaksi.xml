@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rectangle_poin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/poin_text_transaksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="90dp"
+                    android:fontFamily="@font/sarabun_bold"
+                    android:text="Poin"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="48px" />
+
+                <Button
+                    android:id="@+id/transaksi_button_transaksi"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="50dp"
+                    android:background="@drawable/circle_poin"
+                    android:fontFamily="@font/sarabun_bold"
+                    android:text="Transaksi"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="48px" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rectangle_poinwhite">
+
+                    <ImageView
+                        android:id="@+id/up1_image_transaksi"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        app:srcCompat="@drawable/poin_up" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="65dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/poin1_image_transaksi"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:srcCompat="@drawable/poin" />
+
+                        <TextView
+                            android:id="@+id/angka_poin1_text_transaksi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:text="500.000"
+                            android:textColor="#000000"
+                            android:textSize="48px" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="30dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="78dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/topup_pemakaian1_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Top Up"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/tgl1_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tgl"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/pemakaian_topup1_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Top Up"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/titik_dua1_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/titik_dua2_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="143dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/value_topup_pemakaian1_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Mobile Banking" />
+
+                                <TextView
+                                    android:id="@+id/hari1_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Selasa" />
+
+                                <TextView
+                                    android:id="@+id/value_pemakaian_topup1_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="23/10/2019" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rectangle_poinwhite">
+
+                    <ImageView
+                        android:id="@+id/down1_image_transaksi"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        app:srcCompat="@drawable/poin_down" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="65dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/poin2_image_transaksi"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:srcCompat="@drawable/poin" />
+
+                        <TextView
+                            android:id="@+id/angka_poin2_text_transaksi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:text="3.500"
+                            android:textColor="#000000"
+                            android:textSize="48px" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="30dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="78dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/topup_pemakaian2_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pemakaian"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/tgl2_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tgl"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/pemakaian_topup2_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pemakaian"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/titik_dua3_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/titik_dua4_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="143dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/value_topup_pemakaian2_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Transjakarta" />
+
+                                <TextView
+                                    android:id="@+id/hari2_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Selasa" />
+
+                                <TextView
+                                    android:id="@+id/value_pemakaian_topup2_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="23/10/2019" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rectangle_poinwhite">
+
+                    <ImageView
+                        android:id="@+id/down_image_transaksi"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        app:srcCompat="@drawable/poin_up" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="65dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/poin3_image_transaksi"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:srcCompat="@drawable/poin" />
+
+                        <TextView
+                            android:id="@+id/angka_poin3_text_transaksi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:text="500.000"
+                            android:textColor="#000000"
+                            android:textSize="48px" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="30dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="78dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/topup_pemakaian3_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Top Up"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/tgl3_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tgl"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/pemakaian_topup3_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Top Up"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/titik_dua5_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/titik_dua6_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="143dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/value_topup_pemakaian3_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Indomaret" />
+
+                                <TextView
+                                    android:id="@+id/hari3_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Selasa" />
+
+                                <TextView
+                                    android:id="@+id/value_pemakaian_topup3_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="23/10/2019" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rectangle_poinwhite">
+
+                    <ImageView
+                        android:id="@+id/down2_image_transaksi"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        app:srcCompat="@drawable/poin_down" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="65dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/poin4_image_transaksi"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:srcCompat="@drawable/poin" />
+
+                        <TextView
+                            android:id="@+id/angka_poin4_text_transaksi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_bold"
+                            android:text="6.000"
+                            android:textColor="#000000"
+                            android:textSize="48px" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="30dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="78dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/topup_pemakaian4_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pemakaian"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/tgl4_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tgl"
+                                    android:textColor="#231616" />
+
+                                <TextView
+                                    android:id="@+id/pemakaian_topup4_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pemakaian"
+                                    android:textColor="@android:color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/titik_dua7_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/titik_dua8_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text=":" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="143dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/value_topup_pemakaian4_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sepeda (3 jam)" />
+
+                                <TextView
+                                    android:id="@+id/hari4_text_transaksi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Selasa" />
+
+                                <TextView
+                                    android:id="@+id/value_pemakaian_topup4_text_transaksi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="23/10/2019" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rectangle_poinwhite"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rectangle_poinwhite"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rectangle_poinwhite"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

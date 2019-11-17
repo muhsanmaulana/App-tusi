@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/barcode_image_undang_teman"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/barcode_udangteman" />
+
+                <TextView
+                    android:id="@+id/link_text_undang_teman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/sarabun_bold"
+                    android:text="bit.ly/x2djA2"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="75px" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:duplicateParentState="false">
+
+            <ImageView
+                android:id="@+id/hp_image_undang_teman"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="false"
+                android:layout_marginTop="20dp"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/image_undangteman" />
+
+            <ImageView
+                android:id="@+id/share_text_undang_teman"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/text_undangteman" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
