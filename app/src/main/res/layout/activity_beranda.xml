@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+
             <RelativeLayout
                 android:background="#009688"
                 android:layout_width="match_parent"
@@ -32,14 +33,12 @@
                         android:layout_height="wrap_content">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:id="@+id/profile_image"
                             android:layout_width="50dp"
-                            android:layout_marginTop="40dp"
                             android:layout_height="50dp"
                             android:layout_marginLeft="20dp"
-                            android:src="@drawable/profil_pic"
-                            />
+                            android:layout_marginTop="40dp"
+                            android:src="@drawable/profil_pic" />
 
                         <TextView
                             android:layout_marginTop="10dp"
@@ -52,6 +51,7 @@
                             android:textSize="18sp"
                             />
                         <LinearLayout
+                            android:layout_marginTop="5dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
@@ -68,6 +68,7 @@
                                 />
 
                             <ImageButton
+                                android:id="@+id/top_up"
                                 android:layout_width="20dp"
                                 android:layout_height="20dp"
                                 android:layout_marginTop="17dp"
@@ -109,122 +110,140 @@
                 </LinearLayout>
             </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal"
+
+            <ScrollView
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <ImageButton
-                        android:id="@+id/option_tj"
-                        android:layout_width="150dp"
-                        android:layout_height="130dp"
-                        android:background="@drawable/tj_logo"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cari halte terdekat"
-                        android:fontFamily="@font/sarabun_bold"
-                        android:textColor="@color/ColorGreenText"
-                        android:textSize="18sp"
-                        android:layout_gravity="center"
-                        />
+                    <RelativeLayout
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageButton
+                                android:id="@+id/option_tj"
+                                android:layout_width="150dp"
+                                android:layout_height="130dp"
+                                android:background="@drawable/tj_logo"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cari halte terdekat"
+                                android:fontFamily="@font/sarabun_bold"
+                                android:textColor="@color/ColorGreenText"
+                                android:textSize="18sp"
+                                android:layout_gravity="center"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="200dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="0dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageButton
+                                android:id="@+id/option_sepeda"
+                                android:layout_width="150dp"
+                                android:layout_height="130dp"
+                                android:background="@drawable/sepeda_logo"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cari pos sepeda terdekat"
+                                android:fontFamily="@font/sarabun_bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/ColorGreenText"
+                                android:textSize="18sp"
+                                android:layout_gravity="center"
+                                />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageButton
+                                android:id="@+id/option_krl"
+                                android:layout_width="150dp"
+                                android:layout_height="130dp"
+                                android:background="@drawable/krl_logo"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cari KRL terdekat"
+                                android:fontFamily="@font/sarabun_bold"
+                                android:textColor="@color/ColorGreenText"
+                                android:textSize="18sp"
+                                android:layout_gravity="center"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="200dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="0dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageButton
+                                android:id="@+id/option_mrt"
+                                android:layout_width="150dp"
+                                android:layout_height="130dp"
+                                android:background="@drawable/mrt_logo"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cari MRT terdekat"
+                                android:fontFamily="@font/sarabun_bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/ColorGreenText"
+                                android:textSize="18sp"
+                                android:layout_gravity="center"
+                                />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_marginLeft="200dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginRight="0dp"
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
 
-                    <ImageButton
-                        android:id="@+id/option_sepeda"
-                        android:layout_width="150dp"
-                        android:layout_height="130dp"
-                        android:background="@drawable/sepeda_logo"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cari pos sepeda terdekat"
-                        android:fontFamily="@font/sarabun_bold"
-                        android:textAlignment="center"
-                        android:textColor="@color/ColorGreenText"
-                        android:textSize="18sp"
-                        android:layout_gravity="center"
-                        />
-                </LinearLayout>
+            </ScrollView>
 
 
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageButton
-                        android:id="@+id/option_krl"
-                        android:layout_width="150dp"
-                        android:layout_height="130dp"
-                        android:background="@drawable/krl_logo"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cari KRL terdekat"
-                        android:fontFamily="@font/sarabun_bold"
-                        android:textColor="@color/ColorGreenText"
-                        android:textSize="18sp"
-                        android:layout_gravity="center"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_marginLeft="200dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginRight="0dp"
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageButton
-                        android:id="@+id/option_mrt"
-                        android:layout_width="150dp"
-                        android:layout_height="130dp"
-                        android:background="@drawable/mrt_logo"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cari MRT terdekat"
-                        android:fontFamily="@font/sarabun_bold"
-                        android:textAlignment="center"
-                        android:textColor="@color/ColorGreenText"
-                        android:textSize="18sp"
-                        android:layout_gravity="center"
-                        />
-                </LinearLayout>
-
-            </RelativeLayout>
 
         </LinearLayout>
 
