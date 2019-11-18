@@ -160,9 +160,6 @@
                     android:fontFamily="@font/sarabun_bold"
                     android:background="@drawable/rectangle_button"/>
 
-
-
-
             </RelativeLayout>
 
 

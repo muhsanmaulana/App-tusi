@@ -9,10 +9,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
+
 public class Register1Activity extends AppCompatActivity {
 
-
-
+    private FirebaseAuth auth;
     EditText editText1;
     EditText editText2;
 
@@ -38,6 +40,8 @@ public class Register1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register1);
+
+
         editText1 = findViewById(R.id.name_register);
         editText2 = findViewById(R.id.email_register);
 
