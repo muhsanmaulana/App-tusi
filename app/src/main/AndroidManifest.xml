@@ -30,14 +30,11 @@
         <activity android:name=".Register3Activity" />
         <activity android:name=".Register2Activity" />
         <activity android:name=".Register1Activity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"/>
         <activity android:name=".UndangTemanActivity" />
-<<<<<<< HEAD
-        <activity android:name=".BerandaActivity">
-=======
-        <activity android:name=".SlideActivity"/>
-        <activity android:name=".LoginActivity" >
->>>>>>> dbc7411dd2b8a20283ea1ab52adf832712c0d2d2
+
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".BerandaActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
