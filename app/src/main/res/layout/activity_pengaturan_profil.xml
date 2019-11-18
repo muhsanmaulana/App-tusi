@@ -106,7 +106,7 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:background="null"
+        android:background="@color/ColorBackground"
         android:fontFamily="@font/sarabun_bold"
         android:text="Tukar Email"
         android:textAllCaps="false"
