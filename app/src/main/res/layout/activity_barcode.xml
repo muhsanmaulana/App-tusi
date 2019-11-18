@@ -10,12 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+
 
             <RelativeLayout
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0px"
                 android:layout_width="match_parent"
                 android:layout_height="150px"
                 android:background="@drawable/hijau_header">
@@ -25,12 +24,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-               <LinearLayout
-                   android:orientation="vertical"
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent">
+
 
                    <TextView
+                       android:layout_alignParentBottom="true"
+                       android:layout_marginBottom="200dp"
                        android:fontFamily="@font/sarabun_bold"
                        android:textSize="18sp"
                        android:textColor="@color/ColorGreenText"
@@ -38,13 +36,15 @@
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
                        android:text="Scan barcode untuk masuk"
-                       android:layout_gravity="center_horizontal"
+                       android:layout_centerHorizontal="true"
                        />
-                   //komen doang
+
                    <Button
-                       android:layout_gravity="center"
+                       android:layout_alignParentBottom="true"
+                       android:layout_centerHorizontal="true"
+                       android:layout_marginBottom="100dp"
                       android:layout_marginTop="80dp"
-                       android:layout_width="360dp"
+                       android:layout_width="180dp"
                        android:layout_height="70dp"
                        android:text="Kembali"
                        android:textAllCaps="false"
@@ -53,15 +53,7 @@
                        android:background="@drawable/button_barcode"
                        />
 
-
-               </LinearLayout>
-
             </RelativeLayout>
-
-
-
-        </LinearLayout>
-
 
     </RelativeLayout>
 
