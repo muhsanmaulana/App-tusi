@@ -40,7 +40,7 @@
         <activity android:name=".Register1Activity" />
         <activity android:name=".MainActivity"/>
         <activity android:name=".UndangTemanActivity" />
-        <activity android:name=".BerandaActivity" >
+        <activity android:name=".BerandaActivity" />
         <activity android:name=".LoginActivity" >
 
             <intent-filter>
