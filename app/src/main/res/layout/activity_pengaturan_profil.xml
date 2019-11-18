@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PengaturanProfil">
+
+
+    <ImageButton
+        android:id="@+id/profil_ImageButton"
+        android:layout_width="215dp"
+        android:layout_height="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/circle"
+        android:src="@drawable/camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="38dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sarabun_bold"
+        android:text="Tukar Foto Profil"
+        android:textColor="#41AD83"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="246dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sarabun_bold"
+        android:text="Nama Profil"
+        android:textColor="#41AD83"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maks 20 karakter"
+        android:textColor="#41AD83"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="318dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp"
+        android:fontFamily="@font/sarabun_medium"
+        android:hint="Florin"
+        android:textColor="#41AD83"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="336dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sarabun_bold"
+        android:text="Nomor Telepon"
+        android:textColor="#41AD83"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="400dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp"
+        android:fontFamily="@font/sarabun_medium"
+        android:hint="0812-8592-0132"
+        android:textColor="#41AD83"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="430dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="null"
+        android:fontFamily="@font/sarabun_bold"
+        android:text="Tukar Email"
+        android:textAllCaps="false"
+        android:textColor="#41AD83"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="489dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/simpan_profil"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/hijaubotton"
+        android:text="Simpan Profil"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="563dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/batal"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/birubutton"
+        android:text="Batal"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="629dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name=".BerandaAfter2"></activity>
+        <activity android:name=".BerandaAfter" />
+        <activity android:name=".RewardPoin" />
+        <activity android:name=".PengaturanProfil" />
+        <activity android:name=".ForgetPassword2" />
+        <activity android:name=".ForgetPassword" />
+        <activity android:name=".Bantuan" />
+        <activity android:name=".AccessDenied" />
+        <activity android:name=".BarcodeActivity" />
+=======
         <activity android:name=".PilihanRuteActivity"></activity>
         <activity android:name=".TransaksiActivity" />
         <activity android:name=".BarcodeActivity" />
@@ -24,6 +35,7 @@
         <activity android:name=".StasiunTerdekatTjActivity" />
         <activity android:name=".TopUpActivity" />
         <activity android:name=".ProfilActivity" />
+>>>>>>> ae1d8e1a76c0b9b69299fec6f5b56e9cebedbeab
         <activity android:name=".RuteActivity" />
         <activity android:name=".PesanActivity" />
         <activity android:name=".SlideActivity" />
@@ -33,8 +45,13 @@
         <activity android:name=".MainActivity"/>
         <activity android:name=".UndangTemanActivity" />
 
+<<<<<<< HEAD
         <activity android:name=".LoginActivity"/>
         <activity android:name=".BerandaActivity" >
+=======
+        <activity android:name=".BerandaActivity"/>
+        <activity android:name=".LoginActivity" >
+>>>>>>> f45df87af5476522036c5d7df7e495c9a00e87d2
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

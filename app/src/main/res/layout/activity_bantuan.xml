@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/undraw_lost_bqr2_1"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="325dp"
+            android:layout_marginTop="450dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klik link berikut untuk melihat guidelines"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="#373435"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"/>
+
+            <Button
+                android:id="@+id/help_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tolong Saya"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textColor="#074DFF"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atau"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#373435"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hubungi hotline Tusi"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textColor="#373435"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="022-14034"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textColor="#373435"
+                android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
