@@ -11,7 +11,6 @@
         android:layout_height="match_parent">
 
 
-
             <RelativeLayout
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="0px"
@@ -25,19 +24,18 @@
                 android:layout_height="match_parent">
 
 
-
-                   <TextView
-                       android:layout_alignParentBottom="true"
-                       android:layout_marginBottom="200dp"
-                       android:fontFamily="@font/sarabun_bold"
-                       android:textSize="18sp"
-                       android:textColor="@color/ColorGreenText"
-                       android:layout_marginTop="360dp"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Scan barcode untuk masuk"
-                       android:layout_centerHorizontal="true"
-                       />
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="360dp"
+                    android:layout_marginBottom="200dp"
+                    android:fontFamily="@font/sarabun_bold"
+                    android:text="Scan barcode untuk masuk"
+                    android:textColor="@color/ColorGreenText"
+                    android:textSize="18sp" />
 
                    <Button
                        android:layout_alignParentBottom="true"
