@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="co.app.tusi">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BerandaAfter2"></activity>
+        <activity android:name=".PilRuteAsramaUiActivity"></activity>
+        <activity android:name=".RuteAsramaUiActivity" />
+        <activity android:name=".PilRuteUpUmnActivity" />
+        <activity android:name=".RuteUpUmnActivity" />
+        <activity android:name=".Pil3RuteUpGancitActivity" />
+        <activity android:name=".Pil2RuteUpGancitActivity" />
+        <activity android:name=".Pil1RuteUpGancitActivity" />
+        <activity android:name=".BerandaAfter2" />
         <activity android:name=".BerandaAfter" />
         <activity android:name=".RewardPoin" />
         <activity android:name=".PengaturanProfil" />
@@ -17,8 +27,13 @@
         <activity android:name=".ForgetPassword" />
         <activity android:name=".Bantuan" />
         <activity android:name=".AccessDenied" />
+<<<<<<< HEAD
         <activity android:name=".BerandaActivity" />
         <activity android:name=".PilihanRuteActivity"></activity>
+=======
+        <activity android:name=".BarcodeActivity" />
+        <activity android:name=".PilihanRuteActivity" />
+>>>>>>> refs/remotes/origin/master
         <activity android:name=".TransaksiActivity" />
         <activity android:name=".PilihanRute3Activity" />
         <activity android:name=".TopUpActivity" />
@@ -30,6 +45,7 @@
         <activity android:name=".PilihanRute2MasukActivity" />
         <activity android:name=".PoinActivity" />
         <activity android:name=".StasiunTerdekatTjActivity" />
+<<<<<<< HEAD
         <activity android:name=".PesanActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".RuteActivity" />
@@ -39,15 +55,37 @@
         <activity android:name=".Register2Activity" />
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".MainActivity"/>
+=======
+        <activity android:name=".BerandaActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".RuteActivity" />
+        <activity android:name=".PesanActivity" />
+        <activity android:name=".Register3Activity" />
+        <activity android:name=".Register2Activity" />
+        <activity android:name=".Register1Activity" />
+        <activity android:name=".MainActivity" />
+>>>>>>> refs/remotes/origin/master
         <activity android:name=".UndangTemanActivity" />
+        <activity android:name=".TopUpActivity" />
         <activity android:name=".LoginActivity" />
+<<<<<<< HEAD
         <activity android:name=".NotifikasiActivity" >
 
+=======
+        <activity android:name=".SimpleScannerActivity" />
+        <activity android:name=".BaseScannerActivity" />
+        <activity android:name=".SlideActivity">
+>>>>>>> refs/remotes/origin/master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
     </application>
 
 </manifest>

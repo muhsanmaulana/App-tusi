@@ -1,11 +1,11 @@
 package co.app.tusi;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -65,7 +65,7 @@ public class BerandaActivity extends AppCompatActivity {
         btnGO.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v){
-                Intent i = new Intent(BerandaActivity.this,PesanActivity.class);
+                Intent i = new Intent(BerandaActivity.this,BarcodeActivity.class);
                 startActivity(i);
             }
         });
