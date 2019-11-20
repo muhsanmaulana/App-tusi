@@ -118,13 +118,12 @@
 
                     <RelativeLayout
                         android:layout_marginTop="20dp"
-                        android:orientation="horizontal"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
                             android:layout_alignParentLeft="true"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="20dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
@@ -147,9 +146,8 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_marginLeft="200dp"
                             android:layout_alignParentRight="true"
-                            android:layout_marginRight="30dp"
+                            android:layout_marginRight="20dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
@@ -177,13 +175,12 @@
 
                     <RelativeLayout
                         android:layout_marginTop="20dp"
-                        android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
                             android:layout_alignParentLeft="true"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="20dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
@@ -207,7 +204,7 @@
 
                         <LinearLayout
                             android:layout_alignParentRight="true"
-                            android:layout_marginRight="30dp"
+                            android:layout_marginRight="20dp"
                             android:orientation="vertical"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
@@ -258,9 +255,9 @@
                 android:id="@+id/home_nav"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="20dp"
-                android:layout_width="45dp"
+                android:layout_width="100px"
                 android:layout_centerVertical="true"
-                android:layout_height="45dp"
+                android:layout_height="100px"
                 android:background="@drawable/ic_home_black_24dp"
                 />
             <ImageButton

@@ -15,6 +15,7 @@
             android:orientation="vertical">
 
             <RelativeLayout
+                android:layout_marginTop="0dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/rectangle_notifikasi">
@@ -24,204 +25,77 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:layout_centerVertical="false"
                     android:fontFamily="@font/sarabun_bold"
                     android:text="Notifikasi"
                     android:textColor="@android:color/white"
                     android:textSize="48px" />
             </RelativeLayout>
 
-            <LinearLayout
+
+
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
                     android:orientation="vertical">
 
-                    <RelativeLayout
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="90dp">
-
-                        <ImageView
-                            android:id="@+id/pesan_image1_notifikasi"
-                            android:layout_width="80dp"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginStart="20dp"
-                            app:srcCompat="@drawable/pesan_notifikasi" />
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:layout_marginEnd="30dp"
-                            android:orientation="vertical">
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                            <TextView
-                                android:id="@+id/konten1_text_notifikasi"
+                            <ImageView
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="20dp"
+                                android:id="@+id/pesan_image1_notifikasi"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/pesan_notifikasi" />
+
+                            <LinearLayout
+                                android:layout_marginLeft="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Voucher Makanan Rp 20.000"
-                                android:textColor="#009688"
-                                android:textSize="48px" />
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:id="@+id/konten1_text_notifikasi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sarabun_medium"
+                                    android:text="Voucher Makanan Rp 20.000"
+                                    android:textColor="#000000"
+                                    android:textSize="18sp" />
 
-                            <TextView
-                                android:id="@+id/tgl1_text_notifikasi"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/sarabun_regular"
-                                android:text="Berlaku hingga 30 November 2019"
-                                android:textColor="#009688"
-                                android:textSize="48px" />
+                                <TextView
+                                    android:id="@+id/tgl1_text_notifikasi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sarabun_regular"
+                                    android:text="Berlaku hingga 30 November 2019"
+                                    android:textColor="#000000"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
                         </LinearLayout>
 
-                    </RelativeLayout>
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                    </LinearLayout>
 
-                        <ImageView
-                            android:id="@+id/line1_notifikasi"
-                            android:layout_width="370dp"
-                            android:layout_height="2dp"
-                            android:layout_centerHorizontal="true"
-                            android:background="#bbb" />
-                    </RelativeLayout>
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+            </ScrollView>
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="90dp">
-
-                        <ImageView
-                            android:id="@+id/pesan_image2_notifikasi"
-                            android:layout_width="80dp"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginStart="20dp"
-                            app:srcCompat="@drawable/pesan_notifikasi" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:layout_marginEnd="30dp"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/konten2_text_notifikasi"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Lomba Karya"
-                                android:textColor="#009688"
-                                android:textSize="48px" />
-
-                            <TextView
-                                android:id="@+id/tgl2_text_notifikasi"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/sarabun_regular"
-                                android:text="Berlaku hingga 30 November 2019"
-                                android:textColor="#009688"
-                                android:textSize="48px" />
-                        </LinearLayout>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:id="@+id/line2_notifikasi"
-                            android:layout_width="370dp"
-                            android:layout_height="2dp"
-                            android:layout_centerHorizontal="true"
-                            android:background="#bbb" />
-                    </RelativeLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="90dp"/>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:id="@+id/line3_notifikasi"
-                            android:layout_width="370dp"
-                            android:layout_height="2dp"
-                            android:layout_centerHorizontal="true"
-                            android:background="#bbb" />
-                    </RelativeLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="90dp"/>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:id="@+id/line4_notifikasi"
-                            android:layout_width="370dp"
-                            android:layout_height="2dp"
-                            android:layout_centerHorizontal="true"
-                            android:background="#bbb" />
-                    </RelativeLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="90dp"/>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:id="@+id/line5_notifikasi"
-                            android:layout_width="370dp"
-                            android:layout_height="2dp"
-                            android:layout_centerHorizontal="true"
-                            android:background="#bbb" />
-                    </RelativeLayout>
-                </LinearLayout>
-
-            </LinearLayout>
 
         </LinearLayout>
 

@@ -11,6 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <RelativeLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -22,9 +29,8 @@
                 android:textColor="@color/ColorGreenText"
                 android:text="Register"
                 android:fontFamily="@font/sarabun_extrabold"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="80dp"
                 />
             <RelativeLayout
 
@@ -210,10 +216,10 @@
                 <Button
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="20dp"
-                    android:layout_marginTop="60dp"
+                    android:layout_marginTop="20dp"
                     android:id="@+id/login_button"
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
                     android:text="Selesai"
                     android:textAllCaps="false"
                     android:textSize="14sp"
@@ -226,15 +232,7 @@
 
 
         </LinearLayout>
-
-
-
-
-
-
-
-
-
+        </RelativeLayout>
     </RelativeLayout>
 
 
