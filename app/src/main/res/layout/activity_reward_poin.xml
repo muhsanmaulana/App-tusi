@@ -16,7 +16,7 @@
         android:paddingLeft="25dp"
         android:text="Reward"
         android:textColor="#41AD83"
-        android:textSize="40sp"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints" />
