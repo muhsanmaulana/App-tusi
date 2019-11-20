@@ -26,12 +26,11 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:fontFamily="@font/sarabun_bold"
-                    android:text="Notifikasi"
-                    android:textColor="@android:color/white"
+                    android:text="Notifikasi" android:textColor="@android:color/white"
                     android:textSize="18dp" />
             </RelativeLayout>
 
-<<<<<<< HEAD
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -86,7 +85,7 @@
                 </ScrollView>
 
             </LinearLayout>
-=======
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -141,7 +140,7 @@
             </ScrollView>
 
         </LinearLayout>
->>>>>>> f3fc705db4d16d1bea9fb8549808c7fe267c2df6
+
         </LinearLayout>
 
     </RelativeLayout>
