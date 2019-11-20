@@ -31,6 +31,7 @@
                     android:textSize="18dp" />
             </RelativeLayout>
 
+<<<<<<< HEAD
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -85,6 +86,62 @@
                 </ScrollView>
 
             </LinearLayout>
+=======
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/pesan_image1_notifikasi"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/pesan_notifikasi" />
+
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/konten1_text_notifikasi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_medium"
+                            android:text="Voucher Makanan Rp 20.000"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tgl1_text_notifikasi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sarabun_regular"
+                            android:text="Berlaku hingga 30 November 2019"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+>>>>>>> f3fc705db4d16d1bea9fb8549808c7fe267c2df6
         </LinearLayout>
 
     </RelativeLayout>
