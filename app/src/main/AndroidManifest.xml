@@ -27,13 +27,10 @@
         <activity android:name=".ForgetPassword" />
         <activity android:name=".Bantuan" />
         <activity android:name=".AccessDenied" />
-<<<<<<< HEAD
         <activity android:name=".BerandaActivity" />
         <activity android:name=".PilihanRuteActivity"></activity>
-=======
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".PilihanRuteActivity" />
->>>>>>> refs/remotes/origin/master
         <activity android:name=".TransaksiActivity" />
         <activity android:name=".PilihanRute3Activity" />
         <activity android:name=".TopUpActivity" />
@@ -45,7 +42,6 @@
         <activity android:name=".PilihanRute2MasukActivity" />
         <activity android:name=".PoinActivity" />
         <activity android:name=".StasiunTerdekatTjActivity" />
-<<<<<<< HEAD
         <activity android:name=".PesanActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".RuteActivity" />
@@ -55,7 +51,6 @@
         <activity android:name=".Register2Activity" />
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".MainActivity"/>
-=======
         <activity android:name=".BerandaActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".RuteActivity" />
@@ -64,18 +59,13 @@
         <activity android:name=".Register2Activity" />
         <activity android:name=".Register1Activity" />
         <activity android:name=".MainActivity" />
->>>>>>> refs/remotes/origin/master
         <activity android:name=".UndangTemanActivity" />
         <activity android:name=".TopUpActivity" />
         <activity android:name=".LoginActivity" />
-<<<<<<< HEAD
         <activity android:name=".NotifikasiActivity" >
-
-=======
         <activity android:name=".SimpleScannerActivity" />
         <activity android:name=".BaseScannerActivity" />
         <activity android:name=".SlideActivity">
->>>>>>> refs/remotes/origin/master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
