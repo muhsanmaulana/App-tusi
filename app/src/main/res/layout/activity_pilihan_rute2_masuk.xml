@@ -46,23 +46,23 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="360dp"
                             android:fontFamily="@font/sarabun_bold"
-                            android:text="Scan barcode untuk masuk"
+                            android:text="scan barcode untuk selesai"
                             android:textColor="@color/ColorGreenText"
                             android:textSize="18sp" />
                         //komen doang
 
                         <Button
                             android:id="@+id/kembali_button_pil_rute2_masuk"
-                            android:layout_width="360dp"
-                            android:layout_height="70dp"
+                            android:layout_width="248dp"
+                            android:layout_height="63dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="80dp"
                             android:background="@drawable/button_barcode"
                             android:fontFamily="@font/sarabun_bold"
-                            android:text="Kembali"
+                            android:text="Sudahi Perjalanan"
                             android:textAllCaps="false"
                             android:textColor="#FFFFFF"
-                            android:textSize="64px" />
+                            android:textSize="36sp" />
 
 
                     </LinearLayout>

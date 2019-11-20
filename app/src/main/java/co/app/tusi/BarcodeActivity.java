@@ -14,10 +14,12 @@ import androidx.core.content.ContextCompat;
 public class BarcodeActivity extends AppCompatActivity {
     private static final int ZXING_CAMERA_PERMISSION = 1;
     private Class<?> mClss;
-
+    int saldo;
     @Override
     public void onCreate(Bundle state) {
         super.onCreate(state);
+        Intent before = getIntent();
+        saldo = before.getIntExtra("SALDO",0);
         launchActivity(SimpleScannerActivity.class);
     }
 
@@ -29,6 +31,7 @@ public class BarcodeActivity extends AppCompatActivity {
                     new String[]{Manifest.permission.CAMERA}, ZXING_CAMERA_PERMISSION);
         } else {
             Intent intent = new Intent(this, clss);
+            intent.putExtra("SALDO",saldo);
             startActivity(intent);
         }
     }

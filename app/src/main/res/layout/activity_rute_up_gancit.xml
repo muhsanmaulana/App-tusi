@@ -208,14 +208,15 @@
                             </LinearLayout>
 
                             <Button
-                                android:text="Detail"
-                                android:textColor="#FFFFFF"
-                                android:background="@drawable/detail_buttons"
+                                android:id="@+id/detail_pil1"
+                                android:layout_width="80dp"
+                                android:layout_height="30dp"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginRight="20dp"
-                                android:layout_width="80dp"
+                                android:background="@drawable/detail_buttons"
+                                android:text="Detail"
                                 android:textAllCaps="false"
-                                android:layout_height="30dp"/>
+                                android:textColor="#FFFFFF" />
 
                         </RelativeLayout>
 
@@ -332,14 +333,15 @@
                             </LinearLayout>
 
                             <Button
-                                android:text="Detail"
-                                android:textColor="#FFFFFF"
-                                android:background="@drawable/detail_buttons"
+                                android:id="@+id/detail_pil2"
+                                android:layout_width="80dp"
+                                android:layout_height="30dp"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginRight="20dp"
-                                android:layout_width="80dp"
+                                android:background="@drawable/detail_buttons"
+                                android:text="Detail"
                                 android:textAllCaps="false"
-                                android:layout_height="30dp"/>
+                                android:textColor="#FFFFFF" />
 
                         </RelativeLayout>
 
@@ -456,14 +458,15 @@
                             </LinearLayout>
 
                             <Button
-                                android:text="Detail"
-                                android:textColor="#FFFFFF"
-                                android:background="@drawable/detail_buttons"
+                                android:id="@+id/detail_pil3"
+                                android:layout_width="80dp"
+                                android:layout_height="30dp"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginRight="20dp"
-                                android:layout_width="80dp"
+                                android:background="@drawable/detail_buttons"
+                                android:text="Detail"
                                 android:textAllCaps="false"
-                                android:layout_height="30dp"/>
+                                android:textColor="#FFFFFF" />
 
                         </RelativeLayout>
 
