@@ -11,13 +11,13 @@
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="150px"
+                android:layout_height="50dp"
                 android:background="@drawable/rectangle_pilihanrute">
 
                 <TextView
@@ -29,146 +29,161 @@
                     android:text="Detail"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white"
-                    android:textSize="48px" />
+                    android:textSize="18sp" />
             </RelativeLayout>
 
             <RelativeLayout
+                android:layout_marginTop="100dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="32dp"
+                    android:background="@drawable/pilrute_image_jalan" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="260dp"
+                    android:background="@drawable/pilrute_image_jalan" />
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="100dp">
-
-                            <RelativeLayout
-                                android:layout_width="15dp"
-                                android:layout_height="300dp"
-                                android:layout_marginStart="40dp"
-                                android:background="@drawable/pilrute_image_jalan">
-
-                            </RelativeLayout>
-
-                            <RelativeLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="35dp">
-
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:id="@+id/circle1_image_pilrute"
-                                        android:layout_width="25dp"
-                                        android:layout_height="25dp"
-                                        app:srcCompat="@drawable/circle_blue_pilrute" />
-
-                                    <ImageView
-                                        android:id="@+id/circle2_image_pilrute"
-                                        android:layout_width="25dp"
-                                        android:layout_height="25dp"
-                                        android:layout_marginTop="60dp"
-                                        app:srcCompat="@drawable/circle_blue_pilrute" />
-
-                                    <ImageView
-                                        android:id="@+id/circle3_image_pilrute"
-                                        android:layout_width="25dp"
-                                        android:layout_height="25dp"
-                                        android:layout_marginTop="60dp"
-                                        android:background="@drawable/circle_krl_rute" />
-
-                                    <ImageView
-                                        android:id="@+id/circle4_image_pilrute"
-                                        android:layout_width="25dp"
-                                        android:layout_height="25dp"
-                                        android:layout_marginTop="80dp"
-                                        android:background="@drawable/circle_krl_rute" />
-                                </LinearLayout>
-                            </RelativeLayout>
-
-                        </RelativeLayout>
-
-                    </RelativeLayout>
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="100dp"
-                        android:orientation="vertical">
-
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/circle1_image_pilrute"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            app:srcCompat="@drawable/circle_blue_pilrute"/>
                         <TextView
-                            android:id="@+id/lokasi1_pilrute"
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/lokasi1"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
+                            android:textSize="14sp"
                             android:fontFamily="@font/sarabun_medium"
                             android:text="Pos Sepeda Universitas Pertamina"
                             android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="60dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            app:srcCompat="@drawable/circle_blue_pilrute"/>
 
                         <TextView
-                            android:id="@+id/lokasi2_pilrute"
+                            android:id="@+id/lokasi2"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:layout_marginTop="60dp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Pos Sepeda Gandaria City"
-                            android:textColor="@android:color/black" />
+                            android:text="Pos Sepeda Stasiun Kebayoran Lama"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="60dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            app:srcCompat="@drawable/circle_krl_rute" />
 
                         <TextView
-                            android:id="@+id/lokasi3_pilrute"
+                            android:id="@+id/lokasi3"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:layout_marginTop="60dp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Statsiun Kebayoran Lama"
-                            android:textColor="@android:color/black" />
+                            android:text="Stasiun Kebayoran Lama"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="60dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            app:srcCompat="@drawable/circle_krl_rute" />
 
                         <TextView
-                            android:id="@+id/lokasi4_pilrute"
+                            android:id="@+id/lokasi4"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:layout_marginTop="80dp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Stasiun Cisauk"
-                            android:textColor="@android:color/black" />
+                            android:text="Stasiun Rawa Buntu"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_marginTop="60dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            app:srcCompat="@drawable/circle_krl_rute"/>
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/lokasi2"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/sarabun_medium"
+                            android:text="Stasiun Serpong"
+                            android:textColor="@android:color/black" />
                     </LinearLayout>
 
                 </LinearLayout>
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="false"
-                    android:layout_marginBottom="60dp">
-
-                    <Button
-                        android:id="@+id/jalan_button_pilrute"
-                        android:layout_width="300dp"
-                        android:layout_height="50dp"
-                        android:layout_centerHorizontal="true"
-                        android:background="@drawable/jalan_pilrute"
-                        android:fontFamily="@font/sarabun_bold"
-                        android:text="Jalan"
-                        android:textAllCaps="false"
-                        android:textColor="@android:color/white"
-                        android:textSize="64px" />
-                </RelativeLayout>
-
             </RelativeLayout>
 
         </LinearLayout>
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:id="@+id/jalan_button_pilrute"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/jalan_pilrute"
+            android:fontFamily="@font/sarabun_bold"
+            android:text="Jalan"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
     </RelativeLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

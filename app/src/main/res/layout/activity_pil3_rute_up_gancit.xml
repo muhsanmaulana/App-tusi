@@ -61,15 +61,16 @@
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             app:srcCompat="@drawable/circle_blue_pilrute"/>
+
                         <TextView
-                            android:layout_marginLeft="20dp"
                             android:id="@+id/lokasi1"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:textSize="14sp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Halte Transjakarta Simprug"
-                            android:textColor="@android:color/black" />
+                            android:text="Halte Simprug"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -81,15 +82,16 @@
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             app:srcCompat="@drawable/circle_blue_pilrute"/>
+
                         <TextView
-                            android:layout_marginLeft="20dp"
                             android:id="@+id/lokasi2"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:textSize="14sp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Halte Pasar Kebayoran Lama"
-                            android:textColor="@android:color/black" />
+                            android:text="Halte Ps.Kebayoran Lama"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <LinearLayout

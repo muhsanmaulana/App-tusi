@@ -40,7 +40,7 @@
                 <ImageView
                     android:layout_marginLeft="32dp"
                     android:layout_width="20dp"
-                    android:layout_height="350dp"
+                    android:layout_height="450dp"
                     android:background="@drawable/pilrute_image_jalan"
                     />
 
@@ -61,15 +61,16 @@
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             app:srcCompat="@drawable/circle_blue_pilrute"/>
+
                         <TextView
-                            android:layout_marginLeft="20dp"
                             android:id="@+id/lokasi1"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:textSize="14sp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
                             android:text="Pos Sepeda Universitas Pertamina"
-                            android:textColor="@android:color/black" />
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -81,15 +82,16 @@
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             app:srcCompat="@drawable/circle_blue_pilrute"/>
+
                         <TextView
-                            android:layout_marginLeft="20dp"
                             android:id="@+id/lokasi2"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:textSize="14sp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Pos Halte Simprug"
-                            android:textColor="@android:color/black" />
+                            android:text="Pos Sepeda Halte Simprug"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -101,15 +103,38 @@
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             app:srcCompat="@drawable/circle_tj_rute"/>
+
                         <TextView
-                            android:layout_marginLeft="20dp"
                             android:id="@+id/lokasi3"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:textSize="14sp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Halte Transajakarta Simprug"
-                            android:textColor="@android:color/black" />
+                            android:text="Halte Simprug"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="60dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            app:srcCompat="@drawable/circle_tj_rute" />
+
+                        <TextView
+                            android:id="@+id/lokasi4"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/sarabun_medium"
+                            android:text="Halte Ps.Kebayoran Lama"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -121,15 +146,16 @@
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             app:srcCompat="@drawable/circle_blue_pilrute"/>
+
                         <TextView
-                            android:layout_marginLeft="20dp"
-                            android:id="@+id/lokasi4"
+                            android:id="@+id/lokasi2"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:textSize="14sp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
-                            android:text="Halte Pasar Kebayoran Lama"
-                            android:textColor="@android:color/black" />
+                            android:text="Pos Sepeda Halte Ps.Kebayoran Lama"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -137,19 +163,21 @@
                         android:orientation="horizontal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <ImageView
                             android:layout_width="25dp"
                             android:layout_height="25dp"
-                            app:srcCompat="@drawable/circle_tj_rute"/>
+                            app:srcCompat="@drawable/circle_sepeda_rute" />
+
                         <TextView
-                            android:layout_marginLeft="20dp"
                             android:id="@+id/lokasi5"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
-                            android:textSize="14sp"
+                            android:layout_marginLeft="20dp"
                             android:fontFamily="@font/sarabun_medium"
                             android:text="Pos Sepeda Gandaria City"
-                            android:textColor="@android:color/black" />
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -160,7 +188,7 @@
 
         <Button
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="100dp"
+            android:layout_marginBottom="60dp"
             android:id="@+id/jalan_button_pilrute"
             android:layout_width="300dp"
             android:layout_height="50dp"
