@@ -32,7 +32,7 @@
         <activity android:name=".TopUpActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".RuteActivity" />
-        <activity android:name=".PesanActivity" />
+        <activity android:name=".RuteUpGancitActivity" />
         <activity android:name=".Register3Activity" />
         <activity android:name=".Register2Activity" />
         <activity android:name=".Register1Activity" />
@@ -44,7 +44,7 @@
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".SimpleScannerActivity" />
         <activity android:name=".BaseScannerActivity"/>
-        <activity android:name=".RuteUpGancitActivity" >
+        <activity android:name=".PesanActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

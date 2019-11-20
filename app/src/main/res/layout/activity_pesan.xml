@@ -58,11 +58,15 @@
                         />
 
                     <EditText
+                        android:id="@+id/my_berangkat"
+                        android:hint="Titik berangkat"
+                        android:fontFamily="@font/sarabun_medium"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
                         android:gravity="center_vertical"
                         android:layout_marginRight="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
                         />
                 </LinearLayout>
 
@@ -81,14 +85,20 @@
                         />
 
                     <EditText
-                        android:gravity="center_vertical"
-                        android:layout_marginRight="20dp"
+                        android:id="@+id/my_tujuan"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="61dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/sarabun_medium"
+                        android:gravity="center_vertical"
+                        android:hint="Titik tujuan"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
 
                         />
                 </LinearLayout>
                 <Button
+                    android:id="@+id/go_berangkat"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@null"
