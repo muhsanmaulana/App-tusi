@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BerandaAfter2"></activity>
+        <activity android:name=".Pil3RuteUpGancitActivity"></activity>
+        <activity android:name=".Pil2RuteUpGancitActivity" />
+        <activity android:name=".Pil1RuteUpGancitActivity" />
+        <activity android:name=".BerandaAfter2" />
         <activity android:name=".BerandaAfter" />
         <activity android:name=".RewardPoin" />
         <activity android:name=".PengaturanProfil" />
@@ -18,7 +21,7 @@
         <activity android:name=".Bantuan" />
         <activity android:name=".AccessDenied" />
         <activity android:name=".BarcodeActivity" />
-        <activity android:name=".PilihanRuteActivity"></activity>
+        <activity android:name=".PilihanRuteActivity" />
         <activity android:name=".TransaksiActivity" />
         <activity android:name=".PilihanRute3Activity" />
         <activity android:name=".NotifikasiActivity" />
@@ -38,13 +41,13 @@
         <activity android:name=".Register3Activity" />
         <activity android:name=".Register2Activity" />
         <activity android:name=".Register1Activity" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity android:name=".UndangTemanActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".BerandaActivity" >
-
+        <activity android:name=".BerandaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

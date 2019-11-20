@@ -64,8 +64,8 @@
 
                     <ImageView
                         android:id="@+id/up1_image_poin"
-                        android:layout_width="40dp"
-                        android:layout_height="60dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="20dp"
                         app:srcCompat="@drawable/poin_up" />
@@ -90,7 +90,7 @@
                             android:fontFamily="@font/sarabun_bold"
                             android:text="500"
                             android:textColor="#000000"
-                            android:textSize="48px" />
+                            android:textSize="45px" />
 
                     </LinearLayout>
 
@@ -99,7 +99,8 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
-                        android:layout_marginEnd="30dp">
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginStart="170dp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -107,7 +108,7 @@
                             android:orientation="horizontal">
 
                             <LinearLayout
-                                android:layout_width="50dp"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
@@ -147,7 +148,7 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:layout_width="143dp"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="5dp"
                                 android:orientation="vertical">
@@ -178,8 +179,8 @@
 
                     <ImageView
                         android:id="@+id/down_image_poin"
-                        android:layout_width="40dp"
-                        android:layout_height="60dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="20dp"
                         app:srcCompat="@drawable/poin_down" />
@@ -204,7 +205,7 @@
                             android:fontFamily="@font/sarabun_bold"
                             android:text="500"
                             android:textColor="#000000"
-                            android:textSize="48px" />
+                            android:textSize="45px" />
 
                     </LinearLayout>
 
@@ -213,7 +214,8 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
-                        android:layout_marginEnd="30dp">
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginStart="170dp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -221,7 +223,7 @@
                             android:orientation="horizontal">
 
                             <LinearLayout
-                                android:layout_width="50dp"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
@@ -261,7 +263,7 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:layout_width="143dp"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="5dp"
                                 android:orientation="vertical">
@@ -292,8 +294,8 @@
 
                     <ImageView
                         android:id="@+id/up2_image_poin"
-                        android:layout_width="40dp"
-                        android:layout_height="60dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="20dp"
                         app:srcCompat="@drawable/poin_up" />
@@ -318,7 +320,7 @@
                             android:fontFamily="@font/sarabun_bold"
                             android:text="500"
                             android:textColor="#000000"
-                            android:textSize="48px" />
+                            android:textSize="45px" />
 
                     </LinearLayout>
 
@@ -327,7 +329,8 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
-                        android:layout_marginEnd="30dp">
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginStart="170dp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -335,7 +338,7 @@
                             android:orientation="horizontal">
 
                             <LinearLayout
-                                android:layout_width="50dp"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
@@ -375,7 +378,7 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:layout_width="143dp"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="5dp"
                                 android:orientation="vertical">
@@ -390,7 +393,7 @@
                                     android:id="@+id/value_from_for3_text_poin"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Kebayoran_Manggarai" />
+                                    android:text="Kebayoran-Manggarai" />
                             </LinearLayout>
 
                         </LinearLayout>
