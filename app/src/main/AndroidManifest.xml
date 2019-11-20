@@ -24,6 +24,11 @@
         <activity android:name=".PilihanRute2MasukActivity" />
         <activity android:name=".PoinActivity" />
         <activity android:name=".StasiunTerdekatTjActivity" />
+        <activity android:name=".Pil2RuteUpGancitActivity" />
+        <activity android:name=".Pil3RuteUpGancitActivity" />
+        <activity android:name=".PilRuteAsramaUiActivity" />
+        <activity android:name=".PilRuteUpUmnActivity"/>
+        <activity android:name=".RuteUpUmnActivity" />
         <activity android:name=".TopUpActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".RuteActivity" />
@@ -35,10 +40,11 @@
         <activity android:name=".UndangTemanActivity" />
         <activity android:name=".SlideActivity"/>
         <activity android:name=".LoginActivity" />
+        <activity android:name=".NotifikasiActivity" />
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".SimpleScannerActivity" />
-        <activity android:name=".BaseScannerActivity" />
-        <activity android:name=".Pil1RuteUpGancitActivity" >
+        <activity android:name=".BaseScannerActivity"/>
+        <activity android:name=".RuteUpGancitActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
