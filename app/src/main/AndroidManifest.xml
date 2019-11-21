@@ -15,7 +15,7 @@
         <activity android:name=".PilihanRuteActivity"></activity>
         <activity android:name=".TransaksiActivity" />
         <activity android:name=".PilihanRute3Activity" />
-        <activity android:name=".NotifikasiActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".StasiunTerdekatKrlActivity" />
         <activity android:name=".StasiunTerdekatMrtActivity" />
         <activity android:name=".TopUpMoreActivity" />
@@ -41,7 +41,7 @@
         <activity android:name=".Register1Activity" />
         <activity android:name=".BerandaActivity" />
        <activity android:name=".SudahiPerjalanan"/>
-        <activity android:name=".LoginActivity"
+        <activity android:name=".NotifikasiActivity"
                   android:noHistory="true"            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

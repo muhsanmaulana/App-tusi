@@ -14,7 +14,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="827dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -89,301 +89,146 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_marginTop="30dp">
-
-                        <TextView
-                            android:id="@+id/rute_pilihan"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:fontFamily="@font/sarabun_bold"
-                            android:text="Transjakarta > Sepeda > KRL"
-                            android:textColor="#747171"
-                            android:textSize="14sp" />
-                    </RelativeLayout>
+                    android:layout_height="wrap_content">
 
                     <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#FFFFFF"
-                        android:orientation="vertical">
+                        android:layout_height="wrap_content">
 
                         <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="70dp">
-
-                            <ImageView
-                                android:id="@+id/imageView17"
-                                android:layout_width="13dp"
-                                android:layout_height="10dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="10dp"
-                                app:srcCompat="@drawable/circle_tj_rute" />
-
-                            <ImageView
-                                android:id="@+id/imageView13"
-                                android:layout_width="13dp"
-                                android:layout_height="10dp"
-                                android:layout_marginLeft="25dp"
-                                android:layout_marginTop="10dp"
-                                app:srcCompat="@drawable/circle_sepeda_rute" />
-
-                            <ImageView
-                                android:id="@+id/imageView18"
-                                android:layout_width="13dp"
-                                android:layout_height="10dp"
-                                android:layout_marginLeft="30dp"
-                                android:layout_marginTop="10dp"
-                                app:srcCompat="@drawable/circle_krl_rute" />
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
 
                             <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Rekomendasi"
+                                android:layout_centerVertical="true"
+                                android:fontFamily="@font/sarabun_medium"
                                 android:textColor="#000000"
-                                android:textSize="10sp" />
-
-                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
+                                android:text="Transjakarta > Sepeda > KRL"
+                                />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:background="#FFFFFF"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp">
+
+                            <LinearLayout
                                 android:layout_marginTop="10dp"
-                                android:layout_marginRight="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Rp.2.000"
-                                android:textSize="10sp" />
-
-                            <TextView
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="20dp"
+                                android:orientation="vertical"
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="28dp"
+                                    android:background="@drawable/tiga"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sarabun_bold"
+                                    android:text="Rekomendasi"
+                                    android:textSize="10sp"
+                                    android:textColor="#000000"
+                                    />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_marginTop="10dp"
                                 android:layout_alignParentRight="true"
-                                android:layout_marginTop="20dp"
                                 android:layout_marginRight="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="40 min"
-                                android:textSize="10sp" />
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sarabun_bold"
+                                    android:text="Rp 11..000 "
+                                    android:textSize="10sp"
+                                    android:textColor="#000000"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sarabun_bold"
+                                    android:text="90 min"
+                                    android:textSize="10sp"
+                                    android:textColor="#BDBABA"
+                                    />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:background="#FFFFFF"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp">
+
+                            <LinearLayout
+                                android:layout_marginTop="10dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="20dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sarabun_medium"
+                                    android:text="Status"
+                                    android:textSize="12sp"
+                                    android:textColor="#BDBABA"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sarabun_bold"
+                                    android:text="Tersedia"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/ColorGreenText"
+                                    />
+                            </LinearLayout>
 
                             <Button
-                                android:layout_width="50dp"
-                                android:layout_height="20dp"
+                                android:id="@+id/detail_pil1"
+                                android:layout_width="80dp"
+                                android:layout_height="30dp"
                                 android:layout_alignParentRight="true"
-                                android:layout_marginTop="40dp"
                                 android:layout_marginRight="20dp"
                                 android:background="@drawable/detail_buttons"
-                                android:fontFamily="@font/sarabun_bold"
                                 android:text="Detail"
                                 android:textAllCaps="false"
-                                android:textColor="#FFFF"
-                                android:textSize="10sp" />
+                                android:textColor="#FFFFFF" />
 
                         </RelativeLayout>
 
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_marginTop="30dp">
-
-                        <TextView
-                            android:id="@+id/rute_pilihan"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:fontFamily="@font/sarabun_bold"
-                            android:text="Sepeda > Transjakarta"
-                            android:textColor="#747171"
-                            android:textSize="14sp" />
-                    </RelativeLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#FFFFFF"
-                        android:orientation="vertical">
-
-                        <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="70dp">
-
-                            <ImageView
-                                android:id="@+id/imageView14"
-                                android:layout_width="13dp"
-                                android:layout_height="10dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="10dp"
-                                app:srcCompat="@drawable/circle_sepeda_rute" />
-
-                            <ImageView
-                                android:id="@+id/imageView16"
-                                android:layout_width="13dp"
-                                android:layout_height="10dp"
-                                android:layout_marginLeft="25dp"
-                                android:layout_marginTop="10dp"
-                                app:srcCompat="@drawable/circle_tj_rute" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Rekomendasi"
-                                android:textColor="#000000"
-                                android:textSize="10sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginRight="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Rp.5.000"
-                                android:textSize="10sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="40 min"
-                                android:textSize="10sp" />
-
-                            <Button
-                                android:layout_width="50dp"
-                                android:layout_height="20dp"
-                                android:layout_alignParentRight="true"
-                                android:layout_marginTop="40dp"
-                                android:layout_marginRight="20dp"
-                                android:background="@drawable/detail_buttons"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Detail"
-                                android:textAllCaps="false"
-                                android:textColor="#FFFF"
-                                android:textSize="10sp" />
-
-                        </RelativeLayout>
 
                     </LinearLayout>
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_marginTop="30dp">
-
-                        <TextView
-                            android:id="@+id/rute_pilihan"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:fontFamily="@font/sarabun_bold"
-                            android:text="Transjakarta"
-                            android:textColor="#747171"
-                            android:textSize="14sp" />
-                    </RelativeLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#FFFFFF"
-                        android:orientation="vertical">
-
-                        <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="70dp">
-
-                            <ImageView
-                                android:id="@+id/imageView15"
-                                android:layout_width="13dp"
-                                android:layout_height="10dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="10dp"
-                                app:srcCompat="@drawable/circle_tj_rute" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Rekomendasi"
-                                android:textColor="#000000"
-                                android:textSize="10sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginRight="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Rp.3.500"
-                                android:textSize="10sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginRight="20dp"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="40 min"
-                                android:textSize="10sp" />
-
-                            <Button
-                                android:layout_width="50dp"
-                                android:layout_height="20dp"
-                                android:layout_alignParentRight="true"
-                                android:layout_marginTop="40dp"
-                                android:layout_marginRight="20dp"
-                                android:background="@drawable/detail_buttons"
-                                android:fontFamily="@font/sarabun_bold"
-                                android:text="Detail"
-                                android:textAllCaps="false"
-                                android:textColor="#FFFF"
-                                android:textSize="10sp" />
-
-                        </RelativeLayout>
-
-                    </LinearLayout>
 
                 </LinearLayout>
 
+            </ScrollView>
 
-            </LinearLayout>
+
 
         </LinearLayout>
 
